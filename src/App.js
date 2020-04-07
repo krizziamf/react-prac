@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import Form from './components/Form';
+// import Parent from './components/Parent';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Main /> */}
+      {/* <FunctionClick />
+      <ClassClick /> */}
+      {/* <EventBind /> */}
+      {/* <Parent /> */}
+      {/* <UserGreeting /> */}
+      {/* <NameList /> */}
+      <Form />
     </div>
   );
 }
